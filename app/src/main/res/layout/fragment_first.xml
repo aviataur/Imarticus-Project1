@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".FirstFragment">
+
+    <ImageView
+        android:id="@+id/imageViewAlicia"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/alicia_image"
+        app:layout_constraintHeight_percent="0.38"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textViewName" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/colorTextName"
+        android:fontFamily="@font/font_family"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:includeFontPadding="false"
+        android:text="@string/name_alicia"
+        app:layout_constraintBottom_toTopOf="@+id/textViewPlace" />
+
+    <TextView
+        android:id="@+id/textViewPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/colorText"
+        android:fontFamily="@font/font_family"
+        android:gravity="center_horizontal"
+        android:text="@string/place_san_francisco"
+        app:layout_constraintTop_toBottomOf="@+id/textViewName" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlace"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/row1Options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/optionChat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/msg_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option_chat"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/optionGallery"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/gallery_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option_gallery"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/optionLocation"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/loc_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option_location"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/row2Options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/optionFriends"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/friends_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option_friends"
+                    android:textColor="@color/colorText"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/optionMusic"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/music_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option_music"
+                    android:textColor="@color/colorText"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/optionNotification"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/notif_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option_notifications"
+                    android:textColor="@color/colorText"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
