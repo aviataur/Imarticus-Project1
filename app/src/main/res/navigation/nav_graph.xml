@@ -8,5 +8,22 @@
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.example.imarticus_project1.FirstFragment"
-        tools:layout="@layout/fragment_first" />
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_FirstFragment_to_fragmentSecond"
+            app:destination="@id/fragmentSecond" />
+        <argument
+            android:name="username"
+            app:argType="string"
+            android:defaultValue="user1" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSecond"
+        android:name="com.example.imarticus_project1.FragmentSecond"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_fragmentSecond_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
 </navigation>

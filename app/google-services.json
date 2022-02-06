@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "427007252465",
+    "firebase_url": "https://gcm2-b667b.firebaseio.com",
+    "project_id": "gcm2-b667b",
+    "storage_bucket": "gcm2-b667b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427007252465:android:df24800ad15ac9007c9650",
+        "android_client_info": {
+          "package_name": "com.example.imarticus_project1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427007252465-n0t8lhccj45gb17uq8thavi0u0tg9sfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Mk7pc3Io8XJjxO2-RCuGFc_uJEPHYEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427007252465-n0t8lhccj45gb17uq8thavi0u0tg9sfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427007252465:android:c13539336d35d11e",
+        "android_client_info": {
+          "package_name": "com.rupal.SampleLa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427007252465-q3778tmp5m472k8lstkc8t41ho9r1it4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rupal.SampleLa",
+            "certificate_hash": "a63848457b98e07ab5eb7ccf4c1380a6e791f636"
+          }
+        },
+        {
+          "client_id": "427007252465-n0t8lhccj45gb17uq8thavi0u0tg9sfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Mk7pc3Io8XJjxO2-RCuGFc_uJEPHYEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427007252465-n0t8lhccj45gb17uq8thavi0u0tg9sfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427007252465:android:2510bcccf288ce89",
+        "android_client_info": {
+          "package_name": "com.rupal.samplela"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427007252465-v8slv02ri9j3807aps0nrlcnq7u25op5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rupal.samplela",
+            "certificate_hash": "a63848457b98e07ab5eb7ccf4c1380a6e791f636"
+          }
+        },
+        {
+          "client_id": "427007252465-n0t8lhccj45gb17uq8thavi0u0tg9sfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Mk7pc3Io8XJjxO2-RCuGFc_uJEPHYEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427007252465-n0t8lhccj45gb17uq8thavi0u0tg9sfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
